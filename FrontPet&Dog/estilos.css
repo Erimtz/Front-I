@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,22 +9,33 @@ body {
     background: black;
     color: #fff;
     font-size: 20px;
+    height: 30px;
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
-span {
-    font-size: 15px;
-    justify-content: space-between;
-    width: 200%;
+.contenedor p {
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    flex-direction:initial;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    left: 10%;
+    
 }
 
 .idioma_pais {
-    -webkit-flex-direction: row-reverse;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    width: 95%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 /*menu front pets*/
@@ -45,7 +57,7 @@ ul {
 
 li {
     list-style: none;
-    margin-right: 45px;
+    margin-right: 35px;
     justify-content: space-around;
 }
 
@@ -62,10 +74,40 @@ li {
     width: 100%;
 }
 
+h1 {
+    font-size: 40px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+
+h4 {
+    font-size: 22px;
+    position: absolute;
+    top: 54%;
+    right: 9%;
+}
+
+a {
+    font-size: 14px;
+    background:#F0A83E;
+    border-radius: 7px;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    right: 12%;
+
+}
+
 /* icono huella*/
 .icono {
     height: 147px;
-    left: 670px;
+    left: 620px;
     margin: 50px;
     position: sticky;
     width: 100px;
@@ -84,16 +126,31 @@ p {
     color:#918B91;
 }
 
-.cajas {
+.items {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top:70px;
+    margin-bottom: 120px;
+}
+.items img {
+    width: 120%;
+    margin: 2px;
 }
 
-.cajas img {
+.nombre {
+    color: #331b0a;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-top: 30px;
+    
+}
+
+.precio {
+    font-weight: 400;
+    color:#F0A83E;
+    font-style: bold;
+
 }
 
 /*formularo*/
@@ -110,13 +167,159 @@ p {
     justify-content: center;
 }
 
+/*footer novedades*/
 .novedades {
+    background-image: url(img/rectangulo\ cafe.png);
     display: flex;
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
-    margin-bottom: 0px;
-    padding: 0%;
+    margin: 0px; 
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.novedades img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 15%;
+    height: 15vh;
+    justify-content: space-around;
+}
+
+.suscribite p {
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 282.1%;
+    left: 3%;
+}
+
+.email p {
+    background: #fff;
+    background-size: 2px;
+    width: 27%;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    color:#A0A0A0;
+    position: absolute;
+    top: 282%;
+    right: 16%;
+}
+
+.email a {
+    background-color: #331b0a;
+    width: 6%;
+    height: 2vh;
+    border-radius: 23px;
+    position: absolute;
+    top: 285.1%;
+    right: 5%;
+    
+}
+
+.direccion p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 302%;
+    left: 7%;
+}
+
+.direccion h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 307%;
+    left: 10%;
+    height: 5vh;
+}
+
+.numero p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 317%;
+    left: 7%;
+}
+
+.numero h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 322%;
+    left: 10%;
+}
+
+.data p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 331%;
+    left: 7%;
+    height: 5vh;
+}
+
+.data h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 336%;
+    left: 10%;
+    height: 5vh;
+}
+
+.logotipo img {
+    position: absolute;
+    top: 319%;
+    right: 7%;
+    width: 270px;
 }
 
 
+.last-info{
+    background-color: black; 
+    width: 100%;
+    display: flex;
+}
+
+.derechos p {
+    position: absolute;
+    color: #fff;
+    left: 20%;
+}
+
+.instagram a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    position: absolute;
+    right: 16%;
+    top: 351%;
+    height: 5vh;
+}
+
+.facebook a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    position: absolute;
+    right: 22%;
+    top: 351%;
+    height: 5vh;
+}
+
+.whatsapp a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    font-style: bold;
+    position: absolute;
+    top: 351%;
+    right: 10%;
+}
