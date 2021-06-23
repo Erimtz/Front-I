@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.encabezado {
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 40px;
+    font-style: bold;
+    position: sticky;
+}
+
+.encabezado p {
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+} 
+
+.contenedor h1 {
+    background-color: #00669F;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: sticky;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+}
+
+
+.batman {
+    box-sizing:content-box;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 300px;
+    height: 620px;
+    left: 100px;
+    top: 333px;
+}
+
+.batman i {
+    color: #CC2424;
+    position: absolute;
+    left: 8px;
+    padding: 20px;
+    z-index: 10px;
+    font-size: 34px;
+}
+
+
+.foto1 img {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 118px;
+    left: 188px;
+    top: 460px;   
+}
+
+.foto1 h2 {
+    position: absolute;
+    width: 122px;
+    font-size: 30px;
+    line-height: 35px;
+    height: 35px;
+    left: 190px;
+    top: 600px;
+}
+
+.foto1 p {
+    position: absolute;
+    width: 267px;
+    font-size: 16px;
+    line-height: 19px;
+    left: 124px;
+    height: 336px;
+    top: 680px;
+}
+
+.boton1 a {
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    top: 129%;
+    right: 76%;  
+}
+
+.harley {
+    box-sizing: content-box;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 300px;
+    height: 620px;
+    left: 520px;
+    top: 333px;
+}
+
+.harley i {
+    color: #CC2424;
+    position: absolute;
+    left: 9px;
+    padding: 20px;
+    z-index: 10px;
+    font-size: 34px;
+}
+
+.foto2 img {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 118px;
+    left: 610px;
+    top: 460px; 
+}
+
+.foto2 h2 {
+    position: absolute;
+    width: 122px;
+    font-size: 30px;
+    line-height: 35px;
+    height: 35px;
+    height: 336px;
+    left: 630px;
+    top: 580px;
+}
+
+.foto2 p {
+    position: absolute;
+    width: 267px;
+    font-size: 16px;
+    line-height: 19px;
+    left: 545px;
+    top: 680px;
+}
+
+.boton2 a {
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    top: 129%;
+    right: 45%;  
+}
+
+.superheroe {
+    box-sizing:content-box;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 300px;
+    height: 620px;
+    left: 930px;
+    top: 333px;
+}
+
+.superheroe i {
+    color: #CC2424;
+    position: absolute;
+    left: 9px;
+    padding: 20px;
+    z-index: 10px;
+    font-size: 34px;
+}
+
+.foto3 img {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 118px;
+    left: 1019px;
+    top: 460px;   
+}
+
+.foto3 h2 {
+    position: absolute;
+    width: 122px;
+    font-size: 30px;
+    line-height: 35px;
+    height: 35px;
+    height: 336px;
+    left: 1015px;
+    top: 600px;
+}
+
+.foto3 p {
+    position: absolute;
+    width: 267px;
+    font-size: 16px;
+    line-height: 19px;
+    left: 955px;
+    top: 680px;
+}
+
+.boton3 a {
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    top: 129%;
+    right: 15%;  
+} 
+
+.derechos {
+    background-color: #00669F;
+    width: 100%;
+    height: 40px;
+    height: 7vh;
+    font-style: bold;
+    position: absolute;
+    bottom: -490px;
+    width: 100%;
+}
+
+.derechos P {
+    color: #fff;
+}
