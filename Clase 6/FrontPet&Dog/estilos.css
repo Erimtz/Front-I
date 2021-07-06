@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*encabezado*/
+.contenedor {
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    min-height: 30px;
+    width: 100%;
+    position: sticky;
+}
+
+.contenedor p {
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    flex-direction:initial;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+.idioma_pais {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*menu front pets*/
+.menu{
+    display: flex;
+    background-color:#F0A83E;
+    color:#fff;
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    min-height: 70px;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 35px;
+    justify-content: space-around;
+}
+
+/*banner*/
+.titular {
+    display: flex;
+    min-height: 600px;
+    background-size: cover;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.titular img{
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    top: 44%;
+    right: 1%;
+}
+
+h4 {
+    font-size: 22px;
+    position: absolute;
+    top: 62%;
+    right: 11%;
+}
+
+a {
+    font-size: 14px;
+    background:#F0A83E;
+    border-radius: 7px;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    position: absolute;
+    top: 78%;
+    right: 15%;
+}
+
+/* icono huella*/
+.icono {
+    min-height: 147px;
+    left: 620px;
+    margin: 50px;
+    position: sticky;
+    width: 100px;
+}
+
+/*texto y productos*/
+h3 {
+    justify-content: space-around;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color:#918B91;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:70px;
+    margin-bottom: 120px;
+}
+.items img {
+    width: 120%;
+    margin: 2px;
+}
+
+.nombre {
+    color: #331b0a;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.precio {
+    font-weight: 400;
+    color:#F0A83E;
+    font-style: bold;
+}
+
+/*formularo*/
+.datos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+    justify-content: center;
+    height: 100px;
+}
+
+.datos img {
+    justify-content: center;
+}
+
+/*footer novedades*/
+.novedades {
+    background-image: url(img/rectangulo\ cafe.png);
+    display: flex;
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.novedades img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 22%;
+    justify-content: space-around;
+    position: absolute;
+    
+}
+
+.suscribite p {
+    display: inline-flex;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 295%;
+    left: 3%;
+}
+
+.email p {
+    background: #fff;
+    background-size: 2px;
+    width: 27%;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    color:#A0A0A0;
+    position: absolute;
+    top: 293%;
+    right: 16%;
+}
+
+.email a {
+    background-color: #331b0a;
+    width: 10%;
+    height: 8%;
+    border-radius: 23px;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    top: 294%;
+    right: 5%;
+}
+
+.direccion p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 315%;
+    left: 7%;
+}
+
+.direccion h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 322%;
+    left: 10%;
+    height: 5vh;
+}
+
+.numero p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 330%;
+    left: 7%;
+}
+
+.numero h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 337%;
+    left: 10%;
+}
+
+.data p {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 345%;
+    left: 7%;
+    height: 5vh;
+}
+
+.data h5 {
+    position: absolute;
+    color: #A0A0A0;
+    top: 352%;
+    left: 10%;
+    height: 5vh;
+}
+
+.logotipo img {
+    position: absolute;
+    top: 329%;
+    right: 7%;
+    width: 270px;
+}
+
+
+.last-info{
+    background-color: black; 
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.derechos p {
+    position: absolute;
+    color: #fff;
+    left: 20%;
+    align-items: center;
+}
+
+.instagram a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    position: absolute;
+    right: 16%;
+    top: 351%;
+}
+
+.facebook a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    position: absolute;
+    right: 22%;
+    top: 351%;
+}
+
+.whatsapp a {
+    background-color: #000;
+    background-size: 1px;
+    color:#A0A0A0;
+    font-size: 28px;
+    font-style: bold;
+    position: absolute;
+    top: 351%;
+    right: 10%;
+}
