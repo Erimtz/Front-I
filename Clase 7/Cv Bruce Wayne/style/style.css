@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*imagen batman*/
+#logo {
+    height: 147px;
+    left: 670px;
+    margin: 50px;
+    position: sticky;
+    top: 21px;
+    width: 100px;
+}
+
+/*titulo*/
+h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*subtitulos*/
+h3 {
+    background-color: #C4C4C4;
+    background-size: 50% 50%;
+    color: #005677;
+    margin: 30px 5px 20px 30px;
+    padding: 5px;
+    
+}
+
+/*informacion*/
+.datos li {
+    list-style: outside;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    line-height: 12,7px;
+}
+
+
+/*footer*/
+p {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.contacto {
+    display: flex;
+    background-color: #005677;
+    color: #fff;
+    height: 35px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.contacto img {
+    width: 20px;
+    height: 20px;
+    left: 2px;
+    justify-content: center;
+}
