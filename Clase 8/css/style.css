@@ -1,0 +1,196 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px; 
+    width: 100%;
+}
+
+
+
+/*foto Erika*/
+.presentacion {
+   background-color: #CE8272;
+   height: 10%;
+   height: 150vh;
+   width: 200px;
+   padding: 40px;
+   position: absolute;
+   margin-left: 8%;
+   
+}
+
+.presentacion img{
+    width: 100%;
+ }
+
+
+/*titulo*/
+h1 {
+    background-color:#CE8272;
+    width: 95%;
+    height: 70%;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    right: 70%;
+    display: flex;
+}
+
+/*subtitulos*/
+h3 {
+    background-color: #C4C4C4;
+    background-size: 150px;
+    margin-left: 30%;
+    margin-right: 2%;
+}
+
+h3 p{
+    color:black;
+    text-align: left;
+}
+
+/*informacion*/
+.datos li {
+    list-style:inside;
+    text-align: right;
+}
+
+/* margin-left: 30%;*/
+
+ul {
+    margin-top: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    line-height: 12,7px;
+}
+
+
+/*footer*/
+p {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h4 {
+    background-color: #C4C4C4;
+    color: black;
+    font-style: bold;
+    position: absolute;
+    width: 20.8%;
+    left: 8%;
+    top: 60%;
+}
+
+
+.redes {
+    display: flex;
+    color: #000;
+    height: 35px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    text-align: right;
+    position: absolute;
+    left: 12%;
+    top: 112%; 
+}
+
+.redes a {
+   color: black;
+   font-style: bold;
+}
+
+.instagram {
+    display: flex;
+    height: 35px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    text-align: right;
+    position: absolute;
+    left: 11%;
+    top: 120%;  
+}
+
+.instagram a {
+    color: black;
+}
+
+.facebook {
+    display: flex;
+    height: 35px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    text-align: right;
+    position: absolute;
+    left: 16.3%;
+    top: 120%; 
+}
+
+.facebook a {
+    color: black;
+}
+
+.whatsapp {
+    display: flex;
+    height: 35px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    text-align: right;
+    position: absolute;
+    left: 21%;
+    top: 120%; 
+}
+
+.whatsapp a {
+    color: black;
+}
+
+.datos p {
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    position: absolute;
+    left: 10%;
+    top: 97%; 
+}
+
+.ciudad p {
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    position: absolute;
+    left: 12%;
+    top: 88%;
+}
+
+.telefono {
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-right: 2%;
+    position: absolute;
+    left: 13%;
+    top: 80%;
+}
