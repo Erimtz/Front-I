@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/añadir.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Karla&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Añadir</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="oferta">20% de descuento en todos los productos!</div>
+        <div class="titular">
+            <img src="img/logo 1.png">
+            <p>Nombre Tienda</p> 
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="contenedor">
+        
+        <h1>Añadí tu super!</h1>
+        <span class="anuncio">Agregá tu personaje favorito completando las opciones.</span>
+
+        <form class="form-add" action="formulario.html" method="POST">
+
+            <section class="descripcionPers">
+                <div class="nombre">
+                    <label for="username" required>*Nombre</label><br> 
+                    <input type="text" id="username" name="username"><br>
+                </div>
+                <div class="options">
+                    <label for="text" required>*Especie</label><br>
+                    <select name="especie" id="escoger">
+                        <option>Especie</option>
+                        <option>Unknow</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="datosPersonajes">
+                <div class="fecha">
+                    <label for="fecha" required>Fecha</label><br> 
+                    <input type="date" name="fecha" value="dd/mm/aaaa"><br>
+                </div>
+                <div class="photo">
+                    <label for="text">Agregar Foto</label><br>
+                    <input type="file" name="avatar" accept=".jpg" multiple><br>
+                </div>
+            </section>
+
+            <section class="habilidades">
+                <div class="cajaComentarios">
+                    <textarea name="comentario" >Descripción</textarea><br>
+                </div>
+                
+                <div class="poderes">
+                    <label for="powers" required>Poderes</label><br> 
+                    <label><input name="powers" type="checkbox" id="cbox1" value="first_checkbox"> Volar</label><br>
+                    <label><input name="powers" type="checkbox" id="cbox2" value="second_checkbox"> SuperInteligencia</label><br>
+                    <label><input name="powers" type="checkbox" id="cbox3" value="third_checkbox"> Vista de rayo láser</label><br>
+                    <label><input name="powers" type="checkbox" id="cbox4" value="fourth_checkbox"> Billetera gorda</label><br>
+                    
+                    <label for="type" required>Tipo de personaje</label><br> 
+                    <label><input type="radio" name="type" id="cbox5" value="sexteen_checkbox"> Héroe / Héroina</label><br>
+                    <label><input type="radio" name="type" id="cbox6" value="seventeen_checkbox"> Villano / Villana</label><br>
+                </div>
+            </section>
+
+                <div>
+                    <button class="send">Añadir</button>
+                </div>
+        </form>
+    </main>
+
+    <footer> 
+        <div class="piePagina">
+            <span>Todos los derechos reservados a FRONT END 1</span>
+        </div>
+    </footer>
+</body>
+</html>
