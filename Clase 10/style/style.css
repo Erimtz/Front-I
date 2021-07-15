@@ -55,7 +55,7 @@ body {
     flex-wrap: wrap;
     max-width: 300px;
     max-height: 600px;
-    margin: 20px 10px;
+    margin: 20px 0px;
     float: left;
     background-color: #F3F3F3;
     border-radius: 15% 15% 0 0;
