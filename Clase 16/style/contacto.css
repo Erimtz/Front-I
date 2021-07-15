@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+.encabezado {
+    z-index: 1;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+}
+.oferta {
+    padding: 4px;
+    padding-left: 20px;
+    background-color: #1CD1B0;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.titular {
+    padding: 3px;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #00669F;
+    width: 100%;
+    display: flex; 
+}
+
+.titular img {
+    font-size: 2rem;
+}
+
+.titular p {
+    color: #ffffff;
+    margin-top: 19px;
+    padding-left: 18px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: inter;
+    padding-top: 160px;
+    padding-left: 480px;
+}
+
+.registro {
+    padding-top: 30px;
+    padding-left: 480px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-left: 5px;
+} 
+
+.registro-datos-input,
+.registro-correo-input,
+.reseat,
+.send {
+    height: 40px;
+    font-family: karla;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 46%;
+    align-content: center;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.reseat {
+    background-color: #888888;
+    color: #ffffff;
+}
+.send {
+    background-color: #1CD1B0;
+}
+
+
+.piePagina {
+    padding: 17px;
+    background-color: #00669F;
+    width: 100%;
+    clear: both;
+    margin-top: 200px;
+}
+
+.piePagina span {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
